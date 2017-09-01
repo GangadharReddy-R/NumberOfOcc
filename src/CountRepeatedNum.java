@@ -11,6 +11,7 @@ public class CountRepeatedNum
 		for(int i=0;i<aL.size();i++)
 		{
 			int val=(int) aL.get(i);
+			//dmap holds the key & number of times of that Key Repeated in List of Numbers.
 			if(dmap!=null&&!dmap.equals("")&&dmap.containsKey(val))
 			{
 				dmap.put(val, dmap.get(val)+1);
