@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-
+//Developed by me
 public class CountRepeatedNum
 {
 	HashMap<Integer,Integer> dmap=new HashMap<Integer,Integer>();
